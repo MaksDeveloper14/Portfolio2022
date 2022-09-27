@@ -49,13 +49,22 @@ body {
 @media screen and (max-width: 380px) { 
 	nav .brand-logo {
 		font-size: 1.7rem;
-		left: 40%;
+		left: 22%;
+		display: inline;
+		position: static;
 	}
 	.title {
 		font-size: 44px;
 	}
 	.title__span {
 		font-size: 28px;
+	}
+	.card-image--size {
+		height: 240px;
+	}	
+	.text {
+		text-align: left;
+		font-weight: normal;
 	}
 }
 
@@ -74,9 +83,10 @@ body {
 /* Materialize */
 .btn-floating {
 	position: fixed;
-	bottom: 100px;
-	right: 100px;
+	bottom: 20px;
+	right: 20px;
 }
 .card-image {
 	cursor: pointer;
 }
+
