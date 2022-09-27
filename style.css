@@ -1,0 +1,53 @@
+body {
+	position: relative;
+}
+
+.title {
+	text-align: center;
+}
+
+.text {
+	margin-top: 50px;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.card-image--size {
+	width: 400px;
+	height: 300px;
+}
+
+.works {
+	margin-top: 100px;
+}
+
+.github {
+	width: 100%;
+	height: 430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Materialize */
+.btn-floating {
+	position: fixed;
+	bottom: 100px;
+	right: 100px;
+}
+.card-image {
+	cursor: pointer;
+}
