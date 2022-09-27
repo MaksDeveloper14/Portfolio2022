@@ -46,7 +46,17 @@ body {
 	font-size: 42px;
 }
 
-@media screen and (max-width: 380px) { 
+/* Materialize */
+.btn-floating {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+.card-image {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 500px) { 
 	nav .brand-logo {
 		font-size: 1.7rem;
 		left: 22%;
@@ -67,26 +77,3 @@ body {
 		font-weight: normal;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Materialize */
-.btn-floating {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-}
-.card-image {
-	cursor: pointer;
-}
-
