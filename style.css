@@ -3,7 +3,13 @@ body {
 }
 
 .title {
-	text-align: center;
+	/*text-align: center;*/
+	font-weight: bold;
+}
+
+.title__span {
+	font-size: 36px;
+	font-weight: bold;
 }
 
 .text {
@@ -22,13 +28,36 @@ body {
 	margin-top: 100px;
 }
 
-.github {
-	width: 100%;
-	height: 430px;
+.skills {
+
 }
 
+.skills-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
 
+.skills-col {
+	width: 300px;
+}
 
+.title2 {
+	font-size: 42px;
+}
+
+@media screen and (max-width: 380px) { 
+	nav .brand-logo {
+		font-size: 1.7rem;
+		left: 40%;
+	}
+	.title {
+		font-size: 44px;
+	}
+	.title__span {
+		font-size: 28px;
+	}
+}
 
 
 
